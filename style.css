@@ -1,0 +1,32 @@
+*{
+    background-color: rgb(78, 157, 231);
+}
+
+.navbar{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.nav-links, a{
+    display: flex;
+    padding: 0px 40px;
+    color: rgb(78, 157, 231);
+    background-color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#name{
+    display: flex;
+    margin-left: 20px;
+    background-color: white;
+    color: rgb(78, 157, 231);
+}
+
+
