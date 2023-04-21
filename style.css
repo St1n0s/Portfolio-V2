@@ -1,5 +1,7 @@
-*{
-    background-color: rgb(78, 157, 231);
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+
+body{
+    background-image: linear-gradient(to right,rgb(78, 157, 231), #31a9bc, #4e919d, #4e919d, #31a9bc, rgb(78, 157, 231));
 }
 
 .navbar{
@@ -11,22 +13,25 @@
     position: fixed;
     top: 0;
     left: 0;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .nav-links, a{
     display: flex;
     padding: 0px 40px;
-    color: rgb(78, 157, 231);
+    color: rgb(16, 7, 49);
     background-color: white;
     font-weight: bold;
     font-size: 20px;
+}
+
+.nav-links, a:hover{
+    color: rgb(78, 157, 231);
 }
 
 #name{
     display: flex;
     margin-left: 20px;
     background-color: white;
-    color: rgb(78, 157, 231);
+    color: rgb(16, 7, 49);
 }
-
-
