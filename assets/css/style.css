@@ -39,12 +39,13 @@ body{
 .personal_info{
     display: flex;
     justify-content: space-between;
-    padding: 110px 0px;
+    padding: 150px 0px;
+    font-family: 'Montserrat', sans-serif;
 }
 
 #portrait{
     display: flex;
-    padding-left: 10%;
+    padding-left: 15%;
 }
 
 #portrait img{
@@ -52,12 +53,52 @@ body{
     flex-direction: column;
     align-items: center;
     width: 75%;
-    height: 80%;
+    height: 85%;
     border: 10px solid white;
 }
 
 #about{
+    display: flex;
+    flex-direction: column;
     background-color: white;
-    width: 50%;
-    height: 30%;
+    width: 40%;
+    height: 469.22px;
+    margin-right: 210px;
+}
+
+#about, h2{
+    color: rgb(16, 7, 49);
+    font-size: 25px;
+    align-items: center;
+}
+
+#about, p{
+    color: rgb(16, 7, 49);
+    font-size: 20px;
+    align-items: center;
+    margin-left: 15px;
+}
+
+#socials{
+    display: flex;
+    justify-content: space-evenly;
+    width: 75%;
+    align-items: center;
+    height: auto;
+    padding-top: 50px;
+}
+
+#github_logo{
+    width: 100px;
+    height: 100px;
+}
+
+#linkedin_logo{
+    width: 100px;
+    height: 100px;
+}
+
+#instagram_logo{
+    width: 100px;
+    height: 100px;
 }
