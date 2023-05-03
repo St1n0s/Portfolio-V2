@@ -7,7 +7,23 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <title>Portfolio Stijn</title>
 </head>
+
+<script>
+    function github(){
+        window.open("https://github.com/St1n0s")
+    }
+
+    function linkedin(){
+        window.open("https://www.linkedin.com/in/stijn-van-arkel-1a93a225b/")
+    }
+
+    function insta(){
+        window.open("https://www.instagram.com/stijn.v.arkel/")
+    }
+</script>
+
 <body>
+
     <div class="navbar">
         <h1 id="name">Stijn van Arkel</h1>
             <div class="nav-links">
@@ -16,19 +32,37 @@
                 <a>Mijn Werk</a>
             </div>
     </div>
+
     <div class="personal_info">
+
         <div id="portrait">
             <img src="assets/img/Fotostijn.jpg" alt="Fotostijn">
         </div>
+
         <div id="about">
             <h2>Stijn van Arkel | Student Web-Developer</h2>
-            <p> Ik ben Stijn van Arkel, 17 jaar oud en wonend Vleuten. Mijn passie ligt bij het coderen/designen van websites en het leren van nieuwe technieken in het proces.</p>
+            <p> Ik ben Stijn van Arkel, 17 jaar oud en wonend in Vleuten. Mijn passie ligt bij het maken/designen van websites en het leren van nieuwe technieken in het proces.</p>
+
             <div id="socials">
-                <img src="assets/img/github_logo.png" alt="github_logo" id="github_logo">
-                <img src="assets/img/linkedin_logo.png" alt="linkedin_logo" id="linkedin_logo">
-                <img src="assets/img/instagram_logo.png" alt="instagram_logo" id="instagram_logo">
+                <img src="assets/img/github_logo.png" alt="github_logo" id="github_logo" onclick="github()">
+                <img src="assets/img/linkedin_logo.png" alt="linkedin_logo" id="linkedin_logo" onclick="linkedin()">
+                <img src="assets/img/instagram_logo.png" alt="instagram_logo" id="instagram_logo" onclick="insta()">
+                <p id="contact">Contacteer mij</p>
             </div>
-            
+
+        </div>
+
+    </div>
+
+    <div class="my_skills">
+        <div id="skill_showcase">
+            <h2>Mijn Skills</h2>
+            <p>Ik ben een echte team-player. Ik vind het leuk om met een team samen te werken aan een opdracht en elkaars ideeën uit te wisselen om zo tot een mooi eindproduct te komen.</p>
+            <p>Ik vind het super leuk om met Front-End Development aan de slag te gaan en ik ben ook ervaren met HTML, CSS en Javascript. Verder begin ik mijzelf ook meer te verdiepen in Javascript frameworks zoals ReactJS</p>
+            <p>Ik heb ervaring met design tools zoals Adobe XD en diverse online editing tools.</p>
+            <p>Ik ben momenteel veel bezig met WordPress en kan werken met editing software en plugins.</p>
+            <p>Mijn moedertaal is Nederlands en ik spreek Engels op A2 niveau. Daarnaast kan ik ook nog Duits op basis niveau.</p>
+
         </div>
     </div>
 </body>

@@ -55,6 +55,7 @@ body{
     width: 75%;
     height: 85%;
     border: 10px solid white;
+    border-radius: 10px;
 }
 
 #about{
@@ -63,7 +64,8 @@ body{
     background-color: white;
     width: 40%;
     height: 469.22px;
-    margin-right: 210px;
+    margin-right: 15%;
+    border-radius: 10px;
 }
 
 #about, h2{
@@ -76,7 +78,7 @@ body{
     color: rgb(16, 7, 49);
     font-size: 20px;
     align-items: center;
-    margin-left: 15px;
+    margin-left: 20px;
 }
 
 #socials{
@@ -93,12 +95,50 @@ body{
     height: 100px;
 }
 
+#github_logo:hover{
+    opacity: 0.8;
+}
+
 #linkedin_logo{
     width: 100px;
     height: 100px;
 }
 
+#linkedin_logo:hover{
+    opacity: 0.8;
+}
+
 #instagram_logo{
     width: 100px;
     height: 100px;
+}
+
+#instagram_logo:hover{
+    opacity: 0.8;
+}
+
+.my_skills{
+    display: flex;
+    font-family: 'Monserrat', sans-serif;
+}
+
+#skill_showcase{
+    display: flex;
+    flex-direction: column;
+    width: 1175px;
+    height: 500px;
+    background-color: white;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: -50px;
+}
+
+#skill_showcase h2{
+    margin-left: 30px;
+    font-size: 30px;
+    color: rgb(16, 7, 49);
+}
+
+#skill_showcase p{
+    margin-left: 30px;
 }
