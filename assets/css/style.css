@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
 
+html{
+    scroll-behavior: smooth;
+}
+
 body{
     background-image: linear-gradient(to right,rgb(78, 157, 231), #31a9bc, #4e919d, #4e919d, #31a9bc, rgb(78, 157, 231));
 }
@@ -14,6 +18,7 @@ body{
     top: 0;
     left: 0;
     font-family: 'Montserrat', sans-serif;
+    /* border-bottom: 2px solid rgb(16, 7, 49); */
 }
 
 .nav-links, a{
@@ -23,10 +28,12 @@ body{
     background-color: white;
     font-weight: bold;
     font-size: 20px;
+    text-decoration: none;
 }
 
 .nav-links, a:hover{
     color: rgb(78, 157, 231);
+    cursor: pointer;
 }
 
 #name{
@@ -36,11 +43,12 @@ body{
     color: rgb(16, 7, 49);
 }
 
-.personal_info{
+#personal_info{
     display: flex;
     justify-content: space-between;
-    padding: 150px 0px;
+    padding: 190px 0px 175px 0px;
     font-family: 'Montserrat', sans-serif;
+
 }
 
 #portrait{
@@ -81,18 +89,22 @@ body{
     margin-left: 20px;
 }
 
+#about_me_p1{
+    margin-top: 5px;
+}
+
 #socials{
     display: flex;
     justify-content: space-evenly;
     width: 75%;
     align-items: center;
     height: auto;
-    padding-top: 50px;
 }
 
 #github_logo{
     width: 100px;
     height: 100px;
+    padding-right: 15px;
 }
 
 #github_logo:hover{
@@ -102,6 +114,7 @@ body{
 #linkedin_logo{
     width: 100px;
     height: 100px;
+    padding-right: 15px;
 }
 
 #linkedin_logo:hover{
@@ -111,34 +124,79 @@ body{
 #instagram_logo{
     width: 100px;
     height: 100px;
+    padding-right: 15px;
 }
 
 #instagram_logo:hover{
     opacity: 0.8;
 }
 
-.my_skills{
+#contact{
+    font-size: 15px;
+}
+
+#my_skills{
     display: flex;
     font-family: 'Monserrat', sans-serif;
+    scroll-margin-block: 100px;
 }
 
 #skill_showcase{
     display: flex;
     flex-direction: column;
     width: 1175px;
-    height: 500px;
+    height: 700px;
     background-color: white;
     border-radius: 10px;
     margin: auto;
-    margin-top: -50px;
 }
 
 #skill_showcase h2{
     margin-left: 30px;
     font-size: 30px;
+    margin-bottom: -1px;
     color: rgb(16, 7, 49);
 }
 
 #skill_showcase p{
     margin-left: 30px;
 }
+
+#my_work{
+    display: flex;
+    font-family: 'Monserrat', sans-serif;
+}
+
+#work_showcase{
+    display: flex;
+    flex-direction: column;
+    width: 1175px;
+    height: 700px;
+    background-color: white;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 100px;
+}
+
+#work_showcase h2{
+    margin-left: 30px;
+    font-size: 30px;
+    margin-bottom: -1px;
+    color: rgb(16, 7, 49);
+}
+
+#project_logos{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    align-items: center;
+    height: auto;
+    margin-top: 25px;
+}
+
+#project_logo{
+    width: 200px;
+    height: 200px;
+    padding-right: 15px;
+}
+
