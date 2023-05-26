@@ -207,6 +207,10 @@ body{
 
     @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
 
+    html{
+        scroll-behavior: smooth;
+    }
+
     .navbar{
         width: 320px;
     }
@@ -231,6 +235,7 @@ body{
     #personal_info{
         margin: auto;
         padding-bottom: 100px;
+        padding-top: 150px;
     }
 
     #about{
@@ -274,5 +279,52 @@ body{
         font-size: 10px;
         margin: 0;
     }
-    
+
+    #skill_showcase h2{
+        font-size: 20px;
+        text-align: center;
+        margin: 0;
+        margin-top: 20px;
+    }
+
+    #skill_showcase p{
+        font-size: 12.5px;
+        text-align: center;
+        margin: 0;
+        margin-top: 15px;
+    }
+
+    #work_showcase{
+        width: 320px;
+        height: 1000px;
+    }
+
+    #work_showcase h2{
+        font-size: 20px;
+        text-align: center;
+        margin: 0;
+        margin-top: 20px;
+    }
+
+    #work_showcase h3{
+        font-size: 20px;
+        text-align: center;
+    }
+
+    #work_showcase p{
+        font-size: 15px;
+    }
+
+    #projects{
+        display: flex;
+        flex-direction: column;
+    }
+
+    #project_logo{
+        width: 100px;
+        height: 100px;
+        margin: auto;
+        display: block;
+        margin-top: 25px;
+    }
 }
