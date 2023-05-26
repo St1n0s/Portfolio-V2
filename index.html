@@ -20,6 +20,18 @@
     function insta(){
         window.open("https://www.instagram.com/stijn.v.arkel/")
     }
+
+    function netflix(){
+        window.open("https://github.com/St1n0s/Netflix-ReactJS-Clone")
+    }
+
+    function speeldernis(){
+        window.open("https://speeldernis.nl/")
+    }
+
+    function taco(){
+        window.open("https://763bd9-2.myshopify.com/")
+    }
 </script>
 
 <body>
@@ -51,9 +63,9 @@
             </p>
 
             <div id="socials">
-                <img src="assets/img/github_logo.png" alt="github_logo" id="github_logo" onclick="github()">
-                <img src="assets/img/linkedin_logo.png" alt="linkedin_logo" id="linkedin_logo" onclick="linkedin()">
-                <img src="assets/img/instagram_logo.png" alt="instagram_logo" id="instagram_logo" onclick="insta()">
+                <img src="assets/img/github_logo.png" alt="github_logo" id="socials_logo" onclick="github()">
+                <img src="assets/img/linkedin_logo.png" alt="linkedin_logo" id="socials_logo" onclick="linkedin()">
+                <img src="assets/img/instagram_logo.png" alt="instagram_logo" id="socials_logo" onclick="insta()">
                 <p id="contact"> Bekijk hier mijn werk of neem contact met me op via een van deze platformen</p>
             </div>
 
@@ -67,10 +79,11 @@
             <p>Ik ben een echte team-player. Ik vind het leuk om met een team samen te werken aan een opdracht en elkaars ideeën uit te wisselen om zo tot een mooi eindproduct te komen.</p>
             <p>Ik vind het super leuk om met Front-End Development aan de slag te gaan en ik ben ook ervaren met HTML, CSS en Javascript. Verder begin ik mijzelf ook meer te verdiepen in Javascript frameworks zoals ReactJS</p>
             <p>Ik heb ervaring met designtools zoals Adobe XD en diverse online editing tools.</p>
-            <p>Ik ben momenteel veel bezig met WordPress en Shopify en kan werken met editing software en plugins.</p>
+            <p>Ik ben momenteel veel bezig met WordPress en Shopify en kan werken met editing software en plugins binnen deze CMS platformen.</p>
             <p>Ik heb ervaring met FTP programma's zoals Filezilla</p>
             <p>Mijn moedertaal is Nederlands en ik spreek Engels op A2 niveau. Daarnaast kan ik ook nog Duits op basis niveau.</p>
             <p>Ik werk momenteel bij Karwei Vleuterweide als Combibalie medewerker. Hiervoor heb ik bij de bedrijven Plus, Kruidvat en Intratuin gewerkt. Hier heb ik geleerd hoe ik op een klantvriendelijke manier met klanten om ga en hoe ik hun kan helpen met zoeken naar producten en het oplossen van problemen die zij hebben. </p>
+            <p>Binnen mijn opleiding werk ik bij Het Bureau. Dit is een leerbedrijf waar studenten interne en externe opdrachten kunnen maken om zo te leren en zichzelf voortebereiden hoe het is om later voor een echte klant te werken. </p>
 
         </div>
     </div>
@@ -78,13 +91,25 @@
     <div id="my_work">
         <div id="work_showcase">
             <h2>Mijn Werk</h2>
-            <div id="project_logos">
+            <div id="projects">
                 
-                <div id="speeldernis"><img src="assets/img/Speeldernis_logo.jpeg" alt="Speeldernis_logo" id="project_logo"><h3 id="title">De Speeldernis</h3></div>
+                <div id="speeldernis">
+                    <img src="assets/img/Speeldernis_logo.jpeg" alt="Speeldernis_logo" id="project_logo" onclick="speeldernis()">
+                    <h3 id="title" onclick="speeldernis()">De Speeldernis</h3>
+                    <p id="text">De Wordpress website van De Speeldernis is een recente opdracht waar ik samen met een groep medestudenten de Huistijl update.</p>
+                </div>
 
-                <div id="netflix"><img src="assets/img/Netflix_logo.png" alt="Netflix_logo" id="project_logo"><h3 id="title">Netflix UI</h3></div>
+                <div id="netflix">
+                    <img src="assets/img/Netflix_logo.png" alt="Netflix_logo" id="project_logo" onclick="netflix()">
+                    <h3 id="title" onclick="netflix()">Netflix UI</h3>
+                    <p id="text">Dit is een UI Clone van Netflix heb ik gemaakt met ReactJS. Dit was een opdracht die ik moest maken voor mijn opleiding. </p>
+                </div>
 
-                <div id="taco"><img src="assets/img/Taco_logo.png" alt="Taco_logo" id="project_logo"><h3 id="title">Alvarez Taco's</h3></div>
+                <div id="taco">
+                    <img src="assets/img/Taco_logo.png" alt="Taco_logo" id="project_logo" onclick="taco()">
+                    <h3 id="title" onclick="taco()">Alvarez Taco's</h3>
+                    <p id="text">Dit is een webshop die gemaakt is met shopify. dit heb ik samen met 2 medestudenten van mijn opleiding gemaakt als opdracht voor een fictieve klant</p>
+                </div>
                 
             </div>
         </div>

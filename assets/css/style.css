@@ -25,7 +25,6 @@ body{
     display: flex;
     padding: 0px 40px;
     color: rgb(16, 7, 49);
-    background-color: white;
     font-weight: bold;
     font-size: 20px;
     text-decoration: none;
@@ -103,33 +102,13 @@ body{
     margin-top: 10px;
 }
 
-#github_logo{
+#socials_logo{
     width: 100px;
     height: 100px;
     padding-right: 15px;
 }
 
-#github_logo:hover{
-    opacity: 0.8;
-}
-
-#linkedin_logo{
-    width: 100px;
-    height: 100px;
-    padding-right: 15px;
-}
-
-#linkedin_logo:hover{
-    opacity: 0.8;
-}
-
-#instagram_logo{
-    width: 100px;
-    height: 100px;
-    padding-right: 15px;
-}
-
-#instagram_logo:hover{
+#socials_logo:hover{
     opacity: 0.8;
 }
 
@@ -176,7 +155,7 @@ body{
     display: flex;
     flex-direction: column;
     width: 1175px;
-    height: 700px;
+    height: 600px;
     background-color: white;
     border-radius: 10px;
     margin: auto;
@@ -191,11 +170,10 @@ body{
     color: rgb(16, 7, 49);
 }
 
-#project_logos{
+#projects{
     display: flex;
     justify-content: space-evenly;
     width: 100%;
-    align-items: center;
     height: auto;
     margin-top: 25px;
 }
@@ -203,6 +181,7 @@ body{
 #project_logo{
     width: 200px;
     height: 200px;
+    cursor: pointer;
 }
 
 #title{
@@ -214,4 +193,86 @@ body{
     text-align: center;
     color: rgb(16, 7, 49);
     font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+#text{
+    width: 200px;
+    font-size: 16.5px;
+    margin: auto;
+}
+
+@media only screen and (max-width: 390px){
+
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+
+    .navbar{
+        width: 320px;
+    }
+
+    #name{
+        font-size: 20px;
+    }
+
+    #nav-links{
+        padding: none;
+    }
+
+    #nav.links, a{
+        font-size: 15px;
+        padding: 0px 15px;
+    }
+
+    #portrait{
+        display: none;
+    }
+
+    #personal_info{
+        margin: auto;
+        padding-bottom: 100px;
+    }
+
+    #about{
+        width: 300px;
+        margin: auto;
+    }
+
+    #about h2{
+        font-size: 20px;
+        text-align: center;
+    }
+
+    #about p{
+        font-size: 15px;
+    }
+
+    #about_me_p1{
+        margin: 5px 5px 0px 5px;
+    }
+
+    #about_me_p2{
+        margin: 10px 5px 5px 5px;
+    }
+
+    #socials{
+        width: 320px;
+        margin-top: 10px;
+    }
+
+    #socials_logo{
+        width: 50px;
+        height: 50px;
+        padding-right: 0;
+    }
+
+    #contact{
+        width: 100px;
+    }
+
+    #socials p{
+        font-size: 10px;
+        margin: 0;
+    }
+    
 }
